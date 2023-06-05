@@ -1,0 +1,145 @@
+.nav-bar {
+  background-color: rgba(0, 0, 0, 0.421);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.411);
+  height: 80px;
+  width: 100%;
+  position: relative;
+  //   position: absolute;
+  //   top: 0;
+  z-index: 3;
+
+  .logo {
+    display: block;
+    padding: 8px;
+  }
+
+  img {
+    display: block;
+    margin: auto 8px;
+    width: 40px;
+  }
+
+  .logo-sub {
+    width: 40px;
+  }
+}
+
+nav {
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  z-index: 3;
+
+  a {
+    font-size: 22px;
+    padding: 15px;
+    line-height: 71px;
+    height: 51px;
+    position: relative;
+    text-decoration: none;
+
+    i {
+      transition: all 0.3s ease-out;
+    }
+
+    &:hover {
+      color: #c5822c;
+
+      svg {
+        opacity: 0;
+      }
+
+      &:after {
+        opacity: 1;
+      }
+    }
+
+    &:after {
+      content: "";
+      font-size: 11px;
+      letter-spacing: 2px;
+      position: absolute;
+      top: -5px;
+      left: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      height: 100%;
+      opacity: 0;
+      -webkit-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+
+    &:first-child {
+      &:after {
+        content: "HOME";
+      }
+    }
+  }
+
+  a.my-work-link {
+    &:after {
+      content: "PROJECTS";
+    }
+  }
+
+  a.active {
+    svg {
+      color: #c5822c;
+    }
+  }
+}
+
+.tags {
+  position: absolute;
+  top: 70px;
+  margin: 40px;
+  color: #a3a3a3;
+  opacity: 0.3;
+}
+
+// ul {
+//   //   position: absolute;
+//   //   bottom: 20px;
+//   //   width: 100%;
+//   //   display: block;
+//   //   padding: 0;
+//   //   list-style: none;
+//   //   text-align: center;
+//   //   margin: 0;
+
+//   display: block;
+//   text-align: center;
+//   position: absolute;
+//   list-style: none;
+//   //   width: 100%;
+//   top: 0;
+//   left: 75%;
+//   z-index: 3;
+
+//   li {
+//     a {
+//       //   padding: 7px 0;
+//       //   display: block;
+//       //   font-size: 15px;
+//       //   line-height: 16px;
+//       //   color: #a3a3a3;
+
+//       font-size: 18px;
+//       padding: 15px;
+//       line-height: 51px;
+//       height: 51px;
+//       position: relative;
+//       text-decoration: none;
+//       color: #a3a3a3;
+//     }
+
+//     &:hover {
+//       .anchor-icon {
+//         color: #ffd700;
+//       }
+//     }
+//   }
+// }
