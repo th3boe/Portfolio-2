@@ -6,7 +6,6 @@ import "./logo.scss";
 
 export default function Logo() {
   const bgRef = useRef();
-  const outlineLogoRef = useRef();
   const solidLogoRef = useRef();
 
   const pathVariants = {

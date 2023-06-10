@@ -42,7 +42,7 @@ export default function PortfolioPage() {
             <h2>Yard Sale Auction</h2>
             <img
               src={YardSaleAuction}
-              alt="yard sale auction image"
+              alt="yard sale auction"
               className="image"
             />
             <p>
@@ -63,7 +63,7 @@ export default function PortfolioPage() {
           </div>
           <div className="card">
             <h2>E-com</h2>
-            <img src={Ecom} alt="e-com image" className="image" />
+            <img src={Ecom} alt="e-commerce page" className="image" />
             <p>
               The E-com page was built during my first project using react. The
               brief was the create an online e-com store, using the given API
@@ -82,7 +82,7 @@ export default function PortfolioPage() {
           </div>
           <div className="card">
             <h2>Holidaze</h2>
-            <img src={Holidaze} alt="holidaze image" className="image" />
+            <img src={Holidaze} alt="holidaze" className="image" />
             <p>
               The Holidaze site was built as part of my second and last project
               exam. We were given a brief and a API, with instruction to make a
