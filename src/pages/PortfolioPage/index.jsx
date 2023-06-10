@@ -91,14 +91,11 @@ export default function PortfolioPage() {
             </p>
             <a
               target="blank"
-              href="https://github.com/th3boe/Semester-Project-2-YSA"
+              href="https://github.com/th3boe/project-exam-2-holidaze"
             >
               GitHub Repo
             </a>
-            <a
-              target="blank"
-              href="https://github.com/th3boe/project-exam-2-holidaze"
-            >
+            <a target="blank" href="https://holidaze-by-boe.netlify.app/">
               Live Site
             </a>
           </div>
